@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+*{
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    font-family: 'Righteous', cursive;
+}
+body {
+    background-image: linear-gradient(135deg, rgba(40,36,36,1) 0%,rgba(20,20,20,1) 100%);
+    padding: 0;
+    margin:0;
+}
+#wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#contentHeader {
+    padding: 20px 40px;
+    text-align: center;
+}
+#content {
+    width: 100%;
+}
+#contentBody {
+    padding: 40px 50px 20px;
+    color: #333;
+    text-align: center;
+}
+#ifr {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    display: none;
+}
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: .8rem;
+}
+h2 {
+    color:#fff;
+    font-size: 130%;
+    font-weight: normal;
+    border-bottom: 1px solid #FF3366;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    padding:8px 0;
+    background-color: rgba(20,20,20,1);
+    box-shadow: 0 1rem 2.5rem rgba(0,0,0,.3)
+}
+h3 {
+    color:#fff;
+    font-size: 120%;
+    border-bottom: 1px solid #FF3366;
+    margin-top: 2em;
+    padding-left: 5px;
+    margin-bottom: 1em;
+}
+h4 {
+    color:#fff;
+    font-size: 100%;
+    margin-top: 2em;
+    margin-left: 24px;
+    padding-left: 5px;
+    margin-bottom: 1em;
+}
+.about {
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF3366;
+    padding: .6rem 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .3);
+}
+ul.default {
+    list-style: none;
+    margin-bottom: 1em;
+}
+ul.default li {
+    color:#fff;
+    margin-left: 1.5em;
+    padding-left: 0;
+}
+.btn {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    border-radius: 150px;
+    cursor: pointer;
+    color: white;
+    width: 325px;
+    border:0;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .3);
+}
+.btn-main {
+    background: linear-gradient(to bottom,  #FF3366, #BA265D);
+    
+}
+.btn-main:hover {
+    background: linear-gradient(to bottom, #BA265D, #FF3366);
+}
+/*
+Copyright (c) 2017-2018 Al Azif, https://github.com/Al-Azif/ps4-exploit-host
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
